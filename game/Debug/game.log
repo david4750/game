@@ -1,0 +1,51 @@
+﻿生成启动时间为 2015/6/29 16:13:19。
+     1>项目“E:\dll\game\game\game.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         D:\Program\VisualStudio13\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _CRT_NONSTDC_NO_WARNINGS /D _CRT_SECURE_NO_WARNINGS /D _SCL_SECURE_NO_WARNINGS_DEBUG /D _CRT_SECURE_NO_DEPRECATE /D WIN32 /D _DEBUG /D _WINDOWS /D _USRDLL /D GAME_EXPORTS /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt Entity\Entity.cpp Entity\EntityComponent.cpp Entity\EntityConfigData.cpp Entity\EntityMrg.cpp Entity\EventDispatch.cpp Entity\EventFunctor.cpp Entity\ExtraPropertyMap.cpp Entity\GameLog.cpp Entity\IOUtil.cpp Entity\Property.cpp Entity\PropertyDesc.cpp Entity\StringUtil.cpp Entity\tinyxml3.cpp Entity\TypeConvert.cpp Entity\Var.cpp Entity\XmlWrapper.cpp GameTool\comUTF.cpp GameTool\GameStream.cpp GameTool\ustring.cpp
+         ustring.cpp
+     1>e:\dll\game\game\gametool\utf8tounicode.h(170): warning C4333: “>>”: 右移位数过大，数据将丢失
+         GameStream.cpp
+         comUTF.cpp
+         XmlWrapper.cpp
+         Var.cpp
+         TypeConvert.cpp
+         tinyxml3.cpp
+         StringUtil.cpp
+         PropertyDesc.cpp
+         Property.cpp
+         IOUtil.cpp
+         GameLog.cpp
+         ExtraPropertyMap.cpp
+         EventFunctor.cpp
+         EventDispatch.cpp
+         EntityMrg.cpp
+         EntityConfigData.cpp
+         EntityComponent.cpp
+         Entity.cpp
+         正在生成代码...
+       Lib:
+         D:\Program\VisualStudio13\VC\bin\Lib.exe /OUT:"E:\dll\game\Debug\game.lib" /NOLOGO Debug\Entity.obj
+         Debug\EntityComponent.obj
+         Debug\EntityConfigData.obj
+         Debug\EntityMrg.obj
+         Debug\EventDispatch.obj
+         Debug\EventFunctor.obj
+         Debug\ExtraPropertyMap.obj
+         Debug\GameLog.obj
+         Debug\IOUtil.obj
+         Debug\Property.obj
+         Debug\PropertyDesc.obj
+         Debug\StringUtil.obj
+         Debug\tinyxml3.obj
+         Debug\TypeConvert.obj
+         Debug\Var.obj
+         Debug\XmlWrapper.obj
+         Debug\comUTF.obj
+         Debug\GameStream.obj
+         Debug\ustring.obj
+         game.vcxproj -> E:\dll\game\Debug\game.lib
+     1>已完成生成项目“E:\dll\game\game\game.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:07.92
